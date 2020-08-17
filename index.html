@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="sortcut icon" href="img/icon/calculadora.svg" type="image/x-icon" />
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&family=Poppins&display=swap" rel="stylesheet">
+    <title>Calculadora</title>
+</head>
+<body>
+    <div class="calculadora">
+        <div id="res"><p id="txt"></p></div>
+        <div id="numeros">
+            <div class="caixa"><input type="button" value="1" class="botao" onclick="funcao('1')"></div>
+            <div class="caixa"><input type="button" value="2" class="botao" onclick="funcao('2')"></div>
+            <div class="caixa"><input type="button" value="3" class="botao" onclick="funcao('3')"></div>
+            <div class="caixa"><input type="button" value="4" class="botao" onclick="funcao('4')"></div>
+            <div class="caixa"><input type="button" value="5" class="botao" onclick="funcao('5')"></div>
+            <div class="caixa"><input type="button" value="6" class="botao" onclick="funcao('6')"></div>
+            <div class="caixa"><input type="button" value="7" class="botao" onclick="funcao('7')"></div>
+            <div class="caixa"><input type="button" value="8" class="botao" onclick="funcao('8')"></div>
+            <div class="caixa"><input type="button" value="9" class="botao" onclick="funcao('9')"></div>
+            <div class="caixa"><input type="button" value="0" class="botao" onclick="funcao('0')"></div>
+            <div class="caixa"><input type="button" value="C" class="botao" onclick="limpar()"></div>
+            <div class="caixa"><input type="button" value="=" class="botao" onclick="resultado()"></div>
+        </div>
+        <div id="operadores">
+            <div class="caixa2"><input type="button" value="+" class="botao botaoope" onclick="funcao('+')"></div>
+            <div class="caixa2"><input type="button" value="-" class="botao botaoope" onclick="funcao('-')"></div>
+            <div class="caixa2"><input type="button" value="*" class="botao botaoope" onclick="funcao('*')"></div>
+            <div class="caixa2"><input type="button" value="/" class="botao botaoope" onclick="funcao('/')"></div>
+        </div>
+    </div>
+    <footer>&copy; Rafael</footer>
+</body>
+</html>
