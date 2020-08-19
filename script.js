@@ -8,7 +8,7 @@ function funcao(param) {
 
 function resultado(){
     var resultado = "";
-    for (var i = 0; i < array.length; i++){
+    for (var i in array){
         resultado += array[i];
     }
     resultado = eval(resultado);
