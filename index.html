@@ -13,7 +13,9 @@
     <div class="calculadora">
         <div id="res"><p id="txt"></p></div>
         <div id="numeros">
+            <div class="caixa"><input type="button" value="0" class="botao" onclick="funcao('0')" id="botao"></div>
             <div class="caixa"><input type="button" value="1" class="botao" onclick="funcao('1')"></div>
+            <div class="caixa"><input type="button" value="." class="botao" onclick="funcao('.')"></div>
             <div class="caixa"><input type="button" value="2" class="botao" onclick="funcao('2')"></div>
             <div class="caixa"><input type="button" value="3" class="botao" onclick="funcao('3')"></div>
             <div class="caixa"><input type="button" value="4" class="botao" onclick="funcao('4')"></div>
@@ -22,17 +24,16 @@
             <div class="caixa"><input type="button" value="7" class="botao" onclick="funcao('7')"></div>
             <div class="caixa"><input type="button" value="8" class="botao" onclick="funcao('8')"></div>
             <div class="caixa"><input type="button" value="9" class="botao" onclick="funcao('9')"></div>
-            <div class="caixa"><input type="button" value="0" class="botao" onclick="funcao('0')"></div>
-            <div class="caixa"><input type="button" value="C" class="botao" onclick="limpar()"></div>
-            <div class="caixa"><input type="button" value="=" class="botao" onclick="resultado()"></div>
+            <div class="caixa"><input type="button" value="C" class="botao limparC" onclick="limpar()"></div>
+            <div class="caixa"><input type="button" value="+" class="botao botaoope" onclick="funcao('+')"></div>
+            <div class="caixa"><input type="button" value="-" class="botao botaoope" onclick="funcao('-')"></div>
+            <div class="caixa"><input type="button" value="X" class="botao botaoope" onclick="funcao('*')"></div>
         </div>
         <div id="operadores">
-            <div class="caixa2"><input type="button" value="+" class="botao botaoope" onclick="funcao('+')"></div>
-            <div class="caixa2"><input type="button" value="-" class="botao botaoope" onclick="funcao('-')"></div>
-            <div class="caixa2"><input type="button" value="*" class="botao botaoope" onclick="funcao('*')"></div>
-            <div class="caixa2"><input type="button" value="/" class="botao botaoope" onclick="funcao('/')"></div>
+            <div class="caixa2"><input type="button" value="÷" class="botao botaoope" onclick="funcao('/')"></div>
+            <div class="caixa caixaIgual"><input type="button" value="=" class="botao igual" onclick="resultado()"></div>
         </div>
     </div>
-    <footer>&copy; Rafael</footer>
+    <footer id="criador">&copy; Rafael</footer>
 </body>
 </html>
