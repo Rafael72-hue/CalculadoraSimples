@@ -1,27 +1,26 @@
 body{
     width:98vw;
     height:90vh;
-    background-color:rgb(231, 231, 231);
+    background-color:#e7e7e7;
     font-size:2em;
     text-align:right;
     font-family:Poppins;
 }
 /*CORPO DA CALCULADORA*/
 .calculadora{
-    box-shadow:0px 1px 9px 3px rgba(162, 162, 162, 0.3);
+    box-shadow:0px 1px 9px 3px rgba(0, 0, 0, 0.3);
     position:relative;
     padding:56px 0px 0px;
     background:white;
     margin:50px auto;
     width:330px;
-    height:430px; 
+    height:510px; 
     border-radius:25px;
 }
 /*PARTE QUE DEVERA APARECER A RESPOSTA*/
 #res{
-    padding-right:17px;
     background:rgb(243, 243, 243);
-    width:250px;
+    width:267px;
     height:15%;
     border:1px solid rgba(0, 0, 0, 0.11);
     border-radius:10px;
@@ -50,8 +49,9 @@ p{
     margin-right:50px;
     font-size:2rem;
     padding:0 5%;
-    box-shadow: 0 6px #dadada;
+    box-shadow: 0 4px #2424245b;
     transition:0.1s;
+    align-items:center;
 }
 
 .botao:hover{
@@ -59,7 +59,7 @@ p{
 }
 .botao:active{
     background:#262488;
-    box-shadow: 0 5px #cccccc;
+    box-shadow: 0 3px #00000069;
     transform: translateY(1px);     
 }
 .caixa{
@@ -67,6 +67,16 @@ p{
     line-height:75px;
     font-size:30px;
     width:70px;
+}
+.igual{
+    height:282px;
+    margin-top:8px;
+}
+.caixaIgual{
+    height:220px;
+}
+.limparC{
+    background-color:#ff5e00;
 }
 /*BOTÕES DOS OPERADORES ARITMETICOS*/
 #operadores{
