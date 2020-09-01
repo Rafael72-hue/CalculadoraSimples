@@ -1,8 +1,8 @@
 var array = [];
 var horario = new Date()
 var hora = horario.getHours()
+var txt = document.getElementById('txt');
 function funcao(param) {
-    var txt = document.getElementById('txt');
     array.push(param);
     txt.innerHTML += (param);
 }
@@ -20,7 +20,6 @@ function limpar(){
     for(var c = 1; c < array.length; c++){
         array = array.splice();
     }
-    result = 0
     txt.innerHTML = "";
 }
 
@@ -29,6 +28,4 @@ if(hora >= 18){
     document.body.querySelector('div.calculadora').style.background = "#313131"
     document.body.querySelector('footer#criador').style.color = "#ffffff";
     document.body.querySelector('div#res').style.background = " 0 5px #cccccc";
-} else {
-    document.body.style.background = "#e7e7e7";
 }
