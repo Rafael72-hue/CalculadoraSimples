@@ -10,11 +10,11 @@ body{
 .calculadora{
     box-shadow:0px 1px 9px 3px rgba(0, 0, 0, 0.3);
     position:relative;
-    padding:56px 0px 0px;
+    padding:35px 0px 0px;
     background:white;
     margin:50px auto;
-    width:330px;
-    height:510px; 
+    width:300px;
+    height:460px; 
     border-radius:25px;
 }
 /*PARTE QUE DEVERA APARECER A RESPOSTA*/
@@ -33,8 +33,8 @@ p{
 #numeros{
     display:flex;
     flex-wrap:wrap-reverse;
-    width:210px;
-    padding:40px 0px 0px 30px;
+    width:180px;
+    padding:15px 0px 0px 30px;
     float:left;
 }
 .botao{
@@ -44,8 +44,8 @@ p{
     border-radius:50px;
     outline:none;
     border:none;
-    width:60px;
-    height:60px;
+    width:53px;
+    height:53px;
     margin-right:50px;
     font-size:2rem;
     padding:0 5%;
@@ -64,12 +64,12 @@ p{
 }
 .caixa{
     text-align:center;
-    line-height:75px;
+    line-height:70px;
     font-size:30px;
-    width:70px;
+    width:60px;
 }
 .igual{
-    height:282px;
+    height:256px;
     margin-top:8px;
 }
 .caixaIgual{
@@ -82,8 +82,8 @@ p{
 #operadores{
     display:flex;
     flex-wrap:wrap;
-    width:86px;
-    padding: 40px 0px 0px 0px;
+    width:65px;
+    padding: 15px 24px 0px 0px;
     float:right;
 }
 .caixa2{
