@@ -24,6 +24,9 @@ function limpar(){
 }
 
 if(hora >= 18){
+    document.body.style.transition = 'all 2s';
+    document.body.querySelector('div.calculadora').style.transition ='all 1s';
+
     document.body.style.background = "#1c1e21";
     document.body.querySelector('div.calculadora').style.background = "#313131"
     document.body.querySelector('footer#criador').style.color = "#ffffff";
